@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Displaying five images in IBM cloud Storage</title>
+    <link rel="stylesheet" href="https://ass3css.s3.jp-tok.cloud-object-storage.appdomain.cloud/style.css">
+</head>
+<body>
+<h1>DISPLAYING FIVE IMAGES IN IBM CLOUD STORAGE</h1>
+<div class="row">
+  <div class="column">
+    <img src="https://ivm-objects.s3.jp-tok.cloud-object-storage.appdomain.cloud/Pic-1.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://ivm-objects.s3.jp-tok.cloud-object-storage.appdomain.cloud/Pic-2.jpg" style="width:100%">  </div>
+  <div class="column">
+    <img src="https://ivm-objects.s3.jp-tok.cloud-object-storage.appdomain.cloud/Pic-3.jpg" style="width:100%">  </div>
+  <div class="column">
+    <img src="https://ivm-objects.s3.jp-tok.cloud-object-storage.appdomain.cloud/Pic-4.jpg" style="width:100%">  </div>
+  
+    <div class="column">
+    <img src="https://ivm-objects.s3.jp-tok.cloud-object-storage.appdomain.cloud/Pic-5.jpg" style="width:100%">  </div>
+  <script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "9a043f35-1381-4a98-a9b4-8eba97159e50", // The ID of this integration.
+    region: "eu-gb", // The region your integration is hosted in.
+    serviceInstanceID: "3518540e-0245-4ebe-a410-d5188527b54e", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+</body>
+</html>
+
+
+
